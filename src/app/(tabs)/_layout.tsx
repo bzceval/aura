@@ -8,6 +8,7 @@ type IconName = keyof typeof Ionicons.glyphMap;
 const TABS: { name: string; title: Parameters<typeof t>[0]; icon: IconName }[] = [
   { name: 'index', title: 'tabs.today', icon: 'sparkles' },
   { name: 'journey', title: 'tabs.journey', icon: 'planet' },
+  { name: 'habits', title: 'tabs.habits', icon: 'checkmark-circle' },
 ];
 
 export default function TabsLayout() {
