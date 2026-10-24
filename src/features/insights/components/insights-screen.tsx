@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { t } from '@/shared/i18n';
-import { colors, radius, spacing, typography } from '@/shared/theme/tokens';
-import { Button } from '@/shared/ui/Button';
-import { Screen } from '@/shared/ui/Screen';
-import { useReflection } from '../hooks/useReflection';
+import { colors, radius, spacing, typography } from '@/shared/theme';
+import { Button } from '@/shared/ui/button';
+import { Screen } from '@/shared/ui/screen';
+import { useReflection } from '../hooks/use-reflection';
 import { ReflectionSource } from '../types';
 
 export function InsightsScreen() {

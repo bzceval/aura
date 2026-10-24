@@ -1,5 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { apiKeyStorage } from '../api/apiKeyStorage';
+import { apiKeyStorage } from '../api/api-key-storage';
 
 export const API_KEY_QUERY = ['settings', 'api-key'] as const;
 

@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { FlatList, StyleSheet, Text, View } from 'react-native';
-import { useCheckInList } from '@/features/checkin/hooks/useCheckIns';
+import { useCheckInList } from '@/features/checkin/hooks/use-check-ins';
 import { t } from '@/shared/i18n';
-import { colors, spacing, typography } from '@/shared/theme/tokens';
-import { AuraThumb } from './AuraThumb';
+import { colors, spacing, typography } from '@/shared/theme';
+import { AuraThumb } from './aura-thumb';
 
 const COLUMNS = 3;
 const GAP = spacing.md;

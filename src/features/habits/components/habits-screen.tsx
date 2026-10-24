@@ -2,9 +2,9 @@ import * as Haptics from 'expo-haptics';
 import { useState } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 import { t } from '@/shared/i18n';
-import { colors, radius, spacing, typography } from '@/shared/theme/tokens';
-import { Screen } from '@/shared/ui/Screen';
-import { useCreateHabit, useHabits, useRemoveHabit, useToggleHabit } from '../hooks/useHabits';
+import { colors, radius, spacing, typography } from '@/shared/theme';
+import { Screen } from '@/shared/ui/screen';
+import { useCreateHabit, useHabits, useRemoveHabit, useToggleHabit } from '../hooks/use-habits';
 
 export function HabitsScreen() {
   const { data: habits = [] } = useHabits();

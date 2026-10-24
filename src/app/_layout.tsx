@@ -7,7 +7,7 @@ import { StyleSheet, Text } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { bootstrapDatabase } from '@/shared/db/client';
 import { t } from '@/shared/i18n';
-import { colors } from '@/shared/theme/tokens';
+import { colors } from '@/shared/theme';
 
 SplashScreen.preventAutoHideAsync();
 

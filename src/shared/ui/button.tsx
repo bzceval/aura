@@ -1,6 +1,6 @@
 import * as Haptics from 'expo-haptics';
 import { ActivityIndicator, Pressable, StyleSheet, Text } from 'react-native';
-import { colors, radius, spacing, typography } from '../theme/tokens';
+import { colors, radius, spacing, typography } from '../theme';
 
 interface Props {
   label: string;

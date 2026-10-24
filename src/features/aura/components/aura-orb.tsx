@@ -6,7 +6,7 @@ import {
   useSharedValue,
   withTiming,
 } from 'react-native-reanimated';
-import { auraEffect } from '../lib/auraShader';
+import { auraEffect } from '../lib/aura-shader';
 import { auraPalette } from '../lib/palette';
 
 interface Props {

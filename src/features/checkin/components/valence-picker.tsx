@@ -2,7 +2,7 @@ import * as Haptics from 'expo-haptics';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import Animated, { useAnimatedStyle, withSpring } from 'react-native-reanimated';
 import { t } from '@/shared/i18n';
-import { colors, radius, spacing, typography } from '@/shared/theme/tokens';
+import { colors, radius, spacing, typography } from '@/shared/theme';
 import { VALENCE_EMOJI, Valence } from '../types';
 
 const OPTIONS = [
