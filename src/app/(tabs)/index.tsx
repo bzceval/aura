@@ -1,1 +1,1 @@
-export { TodayScreen as default } from '@/features/checkin/components/TodayScreen';
+export { TodayScreen as default } from '@/features/checkin/components/today-screen';

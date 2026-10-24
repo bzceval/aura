@@ -1,6 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { toDay } from '@/shared/lib/date';
-import { habitRepository } from '../api/habitRepository';
+import { habitRepository } from '../api/habit-repository';
 
 const HABITS_KEY = ['habits'] as const;
 

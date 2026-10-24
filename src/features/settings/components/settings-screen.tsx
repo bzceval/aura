@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { StyleSheet, Text, TextInput } from 'react-native';
 import { t } from '@/shared/i18n';
-import { colors, radius, spacing, typography } from '@/shared/theme/tokens';
-import { Button } from '@/shared/ui/Button';
-import { Screen } from '@/shared/ui/Screen';
-import { useApiKey, useSaveApiKey } from '../hooks/useApiKey';
+import { colors, radius, spacing, typography } from '@/shared/theme';
+import { Button } from '@/shared/ui/button';
+import { Screen } from '@/shared/ui/screen';
+import { useApiKey, useSaveApiKey } from '../hooks/use-api-key';
 
 export function SettingsScreen() {
   const { data: storedKey } = useApiKey();

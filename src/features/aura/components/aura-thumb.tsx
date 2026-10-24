@@ -1,7 +1,7 @@
 import { Canvas, Fill, Shader } from '@shopify/react-native-skia';
 import { useMemo } from 'react';
 import { StyleSheet, View } from 'react-native';
-import { auraEffect } from '../lib/auraShader';
+import { auraEffect } from '../lib/aura-shader';
 import { auraPalette } from '../lib/palette';
 
 interface Props {

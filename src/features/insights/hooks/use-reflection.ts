@@ -1,8 +1,8 @@
 import { useMutation } from '@tanstack/react-query';
-import { checkInRepository } from '@/features/checkin/api/checkInRepository';
-import { apiKeyStorage } from '@/features/settings/api/apiKeyStorage';
-import { reflectWithClaude } from '../api/claudeClient';
-import { summarizeLocally } from '../lib/localReflection';
+import { checkInRepository } from '@/features/checkin/api/check-in-repository';
+import { apiKeyStorage } from '@/features/settings/api/api-key-storage';
+import { reflectWithClaude } from '../api/claude-client';
+import { summarizeLocally } from '../lib/local-reflection';
 import { ReflectionSource, type Reflection } from '../types';
 
 const WEEK = 7;

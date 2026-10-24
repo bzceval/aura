@@ -1,5 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { checkInRepository } from '../api/checkInRepository';
+import { checkInRepository } from '../api/check-in-repository';
 import type { CheckInInput } from '../types';
 
 export const checkInKeys = {

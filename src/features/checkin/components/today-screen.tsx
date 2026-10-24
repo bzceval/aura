@@ -1,16 +1,16 @@
 import * as Haptics from 'expo-haptics';
 import { useEffect } from 'react';
 import { StyleSheet, Text, TextInput, View } from 'react-native';
-import { AuraOrb } from '@/features/aura/components/AuraOrb';
+import { AuraOrb } from '@/features/aura/components/aura-orb';
 import { t } from '@/shared/i18n';
 import { toDay } from '@/shared/lib/date';
-import { colors, radius, spacing, typography } from '@/shared/theme/tokens';
-import { Button } from '@/shared/ui/Button';
-import { Screen } from '@/shared/ui/Screen';
-import { useCheckInForDay, useSaveCheckIn } from '../hooks/useCheckIns';
-import { useDraftStore } from '../store/useDraftStore';
-import { EnergySlider } from './EnergySlider';
-import { ValencePicker } from './ValencePicker';
+import { colors, radius, spacing, typography } from '@/shared/theme';
+import { Button } from '@/shared/ui/button';
+import { Screen } from '@/shared/ui/screen';
+import { useCheckInForDay, useSaveCheckIn } from '../hooks/use-check-ins';
+import { useDraftStore } from '../store/use-draft-store';
+import { EnergySlider } from './energy-slider';
+import { ValencePicker } from './valence-picker';
 
 const ORB_SIZE = 260;
 

@@ -1,7 +1,7 @@
 import { Ionicons } from '@expo/vector-icons';
 import { Tabs } from 'expo-router';
 import { t } from '@/shared/i18n';
-import { colors } from '@/shared/theme/tokens';
+import { colors } from '@/shared/theme';
 
 type IconName = keyof typeof Ionicons.glyphMap;
 
